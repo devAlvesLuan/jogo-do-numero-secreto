@@ -66,6 +66,7 @@ function limparCampo() {
 }
 
 function reinicarJogo() {
+    exibirMensagemInical()
     numeroSecreto = gerarNumeroAleatorio();
     limparCampo()
     tentativas = 1
